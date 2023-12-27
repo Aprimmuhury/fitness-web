@@ -1,0 +1,245 @@
+body {
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: azure;
+}
+
+.company-logo {
+    padding-left: 8%;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.menu-items {
+    display: flex;
+    padding-left: 40%;
+}
+
+.menu-items li {
+    margin: 10px;
+    list-style: none;
+}
+
+.menu-items li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.banner-discription {
+    color: azure;
+    width: 50%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.banner-discription p {
+    color: red;
+}
+
+.banner-discription h1 {
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.banner-image {
+    width: max-content;
+    border-radius: 20px;
+}
+
+.learn {
+    color: white;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.section-two {
+    margin-top: 70px;
+    display: block;
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin: 40px;
+    transition: .8ms;
+}
+
+.card1:hover {
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+.card1 img {
+    width: 100px;
+}
+
+.about-title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.about-container {
+    margin-top: 2px;
+    display: flex;
+    justify-items: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.workout-image {
+    display: inline;
+    border: 3px;
+    border-radius: 50px;
+    width: 50%;
+    padding-left: 10%;
+    margin: 50px;
+}
+
+#image {
+    padding-left: 10%;
+}
+
+.about-discription h1 {
+    font-weight: 600;
+}
+
+.workout-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 450px;
+    height: 150px;
+    background-image: url(image/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.service {
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.service h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.service1 {
+    width: 300px;
+    height: 450px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 16px gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.service1 h5 {
+    color: red;
+}
+
+.service-img img {
+    width: 100%;
+    height: 20%;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-footer h2 {
+    font-weight: bolder;
+}
+
+.service-footer p {
+    font-weight: bolder;
+    color: red;
+}
+
+.batch {
+    position: relative;
+}
+
+.batch-img {
+    width: 50px;
+    padding-left: -8%;
+    top: 2px;
+    right: 250px;
+    position: absolute;
+    margin-top: -35px;
+
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    padding-left: 40%;
+}
+
+#you {
+    padding-left: 50px;
+}
+
+.copy {
+    padding-left: 38%;
+}
+
+.name {
+    color: red;
+}
